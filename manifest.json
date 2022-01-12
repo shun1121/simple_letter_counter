@@ -11,5 +11,12 @@
       "48": "/images/count48.png",
       "128": "/images/count128.png"
     }
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["select.js"]
+    }
+  ],
+  "permissions": ["storage"]
 }
