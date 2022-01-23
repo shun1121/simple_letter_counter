@@ -5,3 +5,4 @@ document.addEventListener('selectionchange', () => {
     console.log('Value_length is ' + val_length)
   })
 })
+
