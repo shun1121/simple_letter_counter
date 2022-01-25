@@ -2,15 +2,15 @@
   "name": "simple_letter_counter",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "count letters",
+  "description": "count letters simply",
+  "icons": {
+    "16": "/images/simple-counter-icon16.png",
+    "32": "/images/simple-counter-icon32.png",
+    "48": "/images/simple-counter-icon48.png",
+    "128": "/images/simple-counter-icon128.png"
+  },
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "/images/simple-counter-icon16.png",
-      "32": "/images/simple-counter-icon32.png",
-      "48": "/images/simple-counter-icon48.png",
-      "128": "/images/simple-counter-icon128.png"
-    }
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
