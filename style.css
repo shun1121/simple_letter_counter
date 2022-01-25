@@ -1,18 +1,29 @@
-body {
-  width: 100px;
+html {
+  border: 1px solid black;
+  background-color: black;
 }
-
+body {
+  border: 2px solid white;
+  width: 100px;
+  height: auto;
+}
 #content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 0px;
+  background-color: black;
+  border-radius: 10px;
 }
-
 #content > p {
   text-align: center;
+  color: white;
+  padding: 0px 20px;
 }
-
 p > span {
-  color: blue;
+  color: white;
   font-weight: bold;
+  font-size: 28px;
+  margin-right: 1px;
+  text-decoration: underline;
 }
